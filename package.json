@@ -1,0 +1,37 @@
+{
+  "name": "nodesmpp",
+  "version": "1.0.0",
+  "description": "\"# nodesmpp\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/composureR3j3c/nodesmpp.git"
+  },
+  "author": "bereket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/composureR3j3c/nodesmpp/issues"
+  },
+  "homepage": "https://github.com/composureR3j3c/nodesmpp#readme",
+  "dependencies": {
+    "smpp": "^0.6.0-rc.4",
+    "axios": "^1.3.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.2",
+    "formidable": "^3.5.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "javascripting": "^2.7.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.3",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
